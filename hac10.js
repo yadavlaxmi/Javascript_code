@@ -1,0 +1,10 @@
+if(true){
+    if(true){
+        console.log("true")
+        if("false"){
+            console.log("false")
+        }
+    }
+}else{
+    console.log("print1")
+}

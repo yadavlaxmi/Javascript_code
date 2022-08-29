@@ -1,3 +1,17 @@
-(function(str1,str2){
-    console.log(str1===str2)
-    })("somi","somi");
+const campus_list=["Bangalore","Dharamshala","Pune","Bangalore_another"]
+
+for(let campus in campus_list){
+
+   console.log(campus)
+
+}
+
+// Output: 
+
+// 0
+
+// 1
+
+// 2
+
+// 3

@@ -1,6 +1,27 @@
-function displayMultiply(num1, num2, num3) {
-    return num1*num2*num3
-    }
-    
-    
-    console.log(displayMultiply(2, 3, 4));
+var myDetails={
+
+    "first name":"somi",
+ 
+    "last name": "singh",
+ 
+    "middle name":"kp"
+ 
+ }
+ 
+  
+ 
+ console.log(myDetails["first name"]);
+ 
+ console.log(myDetails["last name"]);
+ 
+ console.log(myDetails["middle name"]);
+ 
+  
+ 
+ // output
+ 
+ // somi
+ 
+ // singh
+ 
+ // kp

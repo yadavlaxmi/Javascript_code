@@ -1,5 +1,15 @@
-function getResult(num1,num2,num3){
-    console.log(num1-num2+num3)
-   }
-    
-   getResult(2,3,4,5);
+var cars = ["Maruti", "Mercedes", "BMW"];
+
+for (car in cars){
+
+console.log(cars[car])
+
+}
+
+// Output:
+
+// Maruti
+
+// Mercedes
+
+// BMW

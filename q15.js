@@ -1,11 +1,9 @@
-function find_age(age){
-    if(age>18){
-        console.log("you are illegible for vote")
-    }
-    else{
-        console.log("you are not illegible")
-    }
+let obj={"name":"sharmistha","age":21,"hobby":"watching movie",
+
+   "goal":"fullstack_developer"}
+
+for(let prop in obj){
+
+   console.log(prop)
+
 }
-var num=require("readline-sync")
-var age=num.questionInt("enter any age")
-find_age(age)

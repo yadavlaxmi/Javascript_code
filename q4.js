@@ -1,30 +1,7 @@
-var myHome = {
-    "name": "Mannat", 
-    "location":"Mumbai",
-    "Colour":"black",
-    "owner":"sharukh khan",
-    "neighbours": ["everything!"]
-  };
- 
- myHome.isGood= true;
- 
- console.log(myHome);
- 
- // output
- 
- // {
- 
- //    name: ‘my Villa’,
- 
- //    location:"Mumbai",
- 
- //    Colour:"black",
- 
- //    Owner:”sharukh khan”,
- 
- //    neighbours: ["everything!"],
- 
- //    isGood:true
- 
- // }
- 
+var i=0;
+while (i<7){
+    if(i%2==0){
+console.log(i)
+    }
+    i++;
+}

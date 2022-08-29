@@ -1,13 +1,4 @@
-var myDetails={
-
-    "name":"somi",
- 
-    "age":22
- 
+for(var n=9;n>0;n--){
+    console.log(n)
  }
  
- console.log(myDetails.hasOwnProperty("name"));
- 
- // output 
- 
- // true

@@ -1,15 +1,8 @@
-var cars = ["Maruti", "Mercedes", "BMW"];
-
-for (car in cars){
-
-console.log(cars[car])
-
+var i=1
+do{
+  if(i%2==1){
+  console.log(i)
+  }
+  i++
 }
-
-// Output:
-
-// Maruti
-
-// Mercedes
-
-// BMW
+while (i <=10)

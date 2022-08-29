@@ -1,10 +1,9 @@
-let isTrue = "True";
-if(isTrue){
-  console.log("Output should show")
-}
-if(isTrue === "True"){
-  console.log("Both are same")
-}
-else {
-  console.log("Please run it. if all conditions false")
+let n=require("readline-sync");
+
+let choose_ascii=n.question("enter number: ");
+
+var ascii_char=95+choose_ascii
+
+for (var i=97;i<=ascii_char;i++){
+    console.log(ascii_char[i],end="");
 }

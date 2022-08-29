@@ -1,13 +1,8 @@
-var person={"name":"gouri","surname":"maity","age":37}
-for (person_details in person){
-
-console.log(person_details+ "= "+person[person_details]);
-
+let sum=0
+let i=0
+do{
+  sum=sum+i 
+  console.log(sum)
+  i++
 }
-// Output: 
-
-// name= gouri
-
-// surname= maity
-
-// age= 37
+while(i<=10)

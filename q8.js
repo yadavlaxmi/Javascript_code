@@ -1,17 +1,8 @@
-const campus_list=["Bangalore","Dharamshala","Pune","Bangalore_another"]
+let m=5;
+let n=1
+do{
+   console.log(m*n)
+n++
+}        
+while(n<=4)
 
-for(let campus in campus_list){
-
-   console.log(campus)
-
-}
-
-// Output: 
-
-// 0
-
-// 1
-
-// 2
-
-// 3
